@@ -1,0 +1,52 @@
+{
+  "project": {
+    "name": "Hedge Fund Research Team",
+    "version": "1.0",
+    "framework": "HFRT"
+  },
+  "agents": {
+    "coordinator": "@HFRT_Commander",
+    "specialists": [
+      "@Idea_Screener",
+      "@Fundamental_Analyst",
+      "@Quantitative_Analyst",
+      "@Sector_Technology",
+      "@Sector_Healthcare",
+      "@Sector_Industrials",
+      "@Sector_Consumer",
+      "@Sector_Financials",
+      "@Sector_Energy_Materials",
+      "@Due_Diligence_Officer",
+      "@Bull_Analyst",
+      "@Bear_Analyst",
+      "@Thesis_Synthesizer"
+    ]
+  },
+  "workflow": {
+    "phases": 5,
+    "gates": [
+      "Research Sufficiency Gate",
+      "DD Sufficiency Gate",
+      "Thesis Coherence Gate"
+    ],
+    "maxConcurrentAgents": 1,
+    "phase4Exception": "Bull+Bear parallel but isolated"
+  },
+  "paths": {
+    "researchTemplates": "research_template/",
+    "coordination": ".hfrt/",
+    "frameworks": "frameworks/"
+  },
+  "antiHallucination": {
+    "citationTags": [
+      "SEC-CITE",
+      "TRANSCRIPT",
+      "INVESTOR-PRES",
+      "ESTIMATE",
+      "CONSENSUS",
+      "GAP"
+    ],
+    "assumptionPrefix": "A-",
+    "requireCitationForAllClaims": true
+  }
+}
