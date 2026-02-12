@@ -1,7 +1,21 @@
 # Energy & Materials Sector Metrics Framework
 
-## Purpose
-Define key performance indicators and benchmarks for energy and materials companies across sub-sectors.
+> **Classification:** ENERGY AND MATERIALS SECTOR KPI FRAMEWORK
+> **Applied To:** All energy and materials companies (E&P, midstream, integrated, utilities, mining, chemicals, OFS) entering the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Sector_Energy_Materials
+
+---
+
+## Core Principle
+
+**Energy and materials companies are cost-curve businesses. Your position on the cost curve determines whether you survive the cycle -- everything else is commentary.**
+
+This sector is fundamentally different from growth-oriented sectors. Here, cycle positioning and cost structure dominate all other factors. A company in the first quartile of the cost curve survives any downturn; a company in the fourth quartile is the first casualty. The framework provides sub-sector-specific KPIs calibrated to the unique economics of each business model -- E&P breakevens, midstream coverage ratios, utility regulatory dynamics, mining AISC -- because a single "energy sector" framework is meaningless when an E&P company and a regulated utility have nothing in common except a GICS code.
+
+The uncomfortable truth: energy/materials analysts routinely extrapolate peak-cycle margins into the future and call it "structural." Every cycle, the same mistake is made: "This time supply discipline will hold." "This time the commodity supercycle is real." The framework forces cycle-aware analysis by requiring both current metrics AND through-cycle benchmarks. If the investment case only works at $80 oil, it doesn't work.
+
+---
 
 ## Exploration & Production (E&P)
 
@@ -26,7 +40,7 @@ Netback = Realized Price - Royalties - LOE - Gathering/Transport
 
 Cash Margin = Netback - Cash G&A - Cash Interest
 
-FCF = Cash Margin × Production - Capex
+FCF = Cash Margin x Production - Capex
 
 Breakeven = (Capex + OpEx + G&A + Interest) / Production
 ```
@@ -122,9 +136,9 @@ DCF / Common Distribution = Coverage Ratio
 
 ### Segment Profitability
 ```
-Upstream: Volume × (Price - Cost) = Margin
-Downstream: Throughput × Margin/bbl = EBIT
-Chemicals: Revenue × EBITDA Margin = EBITDA
+Upstream: Volume x (Price - Cost) = Margin
+Downstream: Throughput x Margin/bbl = EBIT
+Chemicals: Revenue x EBITDA Margin = EBITDA
 Corporate: Overhead + Interest
 
 Integrated Benefit: Counter-cyclical offsets between segments
@@ -155,7 +169,7 @@ Integrated Benefit: Counter-cyclical offsets between segments
 
 ### Rate Case Analysis
 ```
-Revenue Requirement = Rate Base × Authorized ROE + Operating Costs + Depreciation + Taxes
+Revenue Requirement = Rate Base x Authorized ROE + Operating Costs + Depreciation + Taxes
 
 Rate Base = Net Plant in Service + Working Capital
 
@@ -277,7 +291,7 @@ Integrated Margin = Upstream + Downstream benefits
 |--------|------------|---------------|------|------------|
 | **Revenue Growth** | YoY revenue change | >15% | 5-15% | <5% or negative |
 | **EBITDA Margin** | EBITDA / Revenue | >20% | 15-20% | <15% |
-| **Incremental Margin** | ∆EBITDA / ∆Revenue | >40% | 25-40% | <25% |
+| **Incremental Margin** | dEBITDA / dRevenue | >40% | 25-40% | <25% |
 | **Utilization** | Equipment/crew utilization | >80% | 70-80% | <70% |
 | **Day Rates** | Pricing per day | Rising | Stable | Falling |
 | **Backlog** | Contracted future work | Growing | Stable | Declining |
@@ -289,7 +303,7 @@ Leading: Rig count, permit activity, E&P capex guidance
 Coincident: Service pricing, utilization rates
 Lagging: OFS company margins, working capital
 
-E&P Spending → OFS Demand → OFS Pricing → OFS Margins
+E&P Spending -> OFS Demand -> OFS Pricing -> OFS Margins
 ```
 
 ### Red Flags
@@ -328,15 +342,21 @@ E&P Spending → OFS Demand → OFS Pricing → OFS Margins
 ### NAV Methodology (E&P/Mining)
 ```
 PV of Proved Developed Reserves (PDP)
-+ PV of Proved Undeveloped (PUD) × Risk Factor
-+ Probable/Possible × Risk Factor
++ PV of Proved Undeveloped (PUD) x Risk Factor
++ Probable/Possible x Risk Factor
 + Other Assets (midstream, infrastructure)
 - Net Debt
 - Asset Retirement Obligations
 = Net Asset Value (NAV)
 ```
 
+## Integration
+
+- **Primary Application:** `04_INDUSTRY_ANALYSIS.md` (sector-specific KPI analysis for energy/materials companies)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (production economics, cost structure), `05_FINANCIAL_ANALYSIS.md` (margin benchmarking), `06_VALUATION.md` (NAV methodology, cycle-adjusted multiples)
+- **Cross-Reference:** `dupont_analysis.md` (leverage analysis critical for capital-intensive sectors), `porters_five_forces.md` (supplier/buyer power, rivalry)
+- **Authority:** @Sector_Energy_Materials has sole authority for energy/materials metric selection and benchmarking
+
 ---
 
-**Framework Owner:** @Sector_Energy_Materials
-**Version:** 1.0
+*In commodities, you don't pick the best story -- you pick the lowest cost. The cost curve is the only moat.*

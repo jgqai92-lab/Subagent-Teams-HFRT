@@ -1,7 +1,21 @@
 # Technology Sector Metrics Framework
 
-## Purpose
-Define key performance indicators and benchmarks for technology companies across sub-sectors.
+> **Classification:** TECHNOLOGY SECTOR KPI FRAMEWORK
+> **Applied To:** All technology companies (software/SaaS, semiconductors, hardware, internet/platforms) entering the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Sector_Technology
+
+---
+
+## Core Principle
+
+**Technology sector analysis bifurcates into two fundamentally different exercises: recurring revenue businesses (software) where retention metrics are destiny, and cyclical hardware businesses (semis) where the demand cycle determines everything.**
+
+"Technology" is a misleadingly broad category. A SaaS company with 120% NRR and a semiconductor company with 70% capacity utilization require completely different analytical frameworks despite both being "tech." The framework provides sub-sector-specific KPIs because applying SaaS metrics to semis (or vice versa) produces meaningless analysis. For software, the Rule of 40 and NRR are the north star metrics. For semiconductors, the book-to-bill ratio and inventory days tell you where you are in the cycle. For platforms, DAU/MAU engagement and ARPU trends reveal whether the network effect is strengthening or decaying.
+
+The uncomfortable truth: most technology stock pitches conflate TAM expansion with investability. A company addressing a $100B TAM with 5% gross margins is not an opportunity -- it's a commodity business with a technology wrapper. The framework forces the analyst to evaluate each sub-sector on its own terms: SaaS on unit economics and retention, semis on cycle position and cost structure, platforms on engagement and monetization efficiency. TAM slides are not analysis.
+
+---
 
 ## Software (SaaS / Enterprise / Consumer)
 
@@ -25,11 +39,11 @@ Define key performance indicators and benchmarks for technology companies across
 ```
 NRR = (Starting ARR + Expansion - Contraction - Churn) / Starting ARR
 
-Magic Number = (QoQ ARR change × 4) / Prior Quarter S&M
+Magic Number = (QoQ ARR change x 4) / Prior Quarter S&M
 
 Rule of 40 = Revenue Growth Rate + FCF Margin
 
-LTV = (ARPU × Gross Margin) / Churn Rate
+LTV = (ARPU x Gross Margin) / Churn Rate
 CAC = Total S&M Spend / New Customers Acquired
 ```
 
@@ -168,7 +182,13 @@ CAC = Total S&M Spend / New Customers Acquired
 - Competitive pressure
 - Regulatory risk
 
+## Integration
+
+- **Primary Application:** `04_INDUSTRY_ANALYSIS.md` (sector-specific KPI analysis for technology companies)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (SaaS unit economics, semiconductor cost structure), `05_FINANCIAL_ANALYSIS.md` (sector-appropriate margin analysis), `06_VALUATION.md` (growth-adjusted multiples, Rule of 40 context)
+- **Cross-Reference:** `seven_powers_framework.md` (network effects and switching costs especially relevant for platforms/SaaS), `moat_assessment.md` (technology moat durability assessment)
+- **Authority:** @Sector_Technology has sole authority for technology sector metric selection and benchmarking
+
 ---
 
-**Framework Owner:** @Sector_Technology
-**Version:** 1.0
+*TAM is not a thesis. Retention, margins, and cycle position are. Know which kind of tech company you're analyzing.*

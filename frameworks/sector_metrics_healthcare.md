@@ -1,7 +1,21 @@
 # Healthcare Sector Metrics Framework
 
-## Purpose
-Define key performance indicators and benchmarks for healthcare companies across sub-sectors.
+> **Classification:** HEALTHCARE SECTOR KPI FRAMEWORK
+> **Applied To:** All healthcare companies (pharma, biotech, medtech, managed care, healthcare services) entering the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Sector_Healthcare
+
+---
+
+## Core Principle
+
+**Healthcare investing is pipeline investing. The P&L tells you what the company earned yesterday; the pipeline, patent cliff, and regulatory pathway tell you what it will earn tomorrow.**
+
+Healthcare is unique because future value is often unrelated to current earnings. A pharma company with beautiful margins may be facing a patent cliff that destroys 30% of revenue in 3 years. A biotech with no revenue may have a pipeline worth billions on a risk-adjusted basis. The framework provides sub-sector-specific KPIs calibrated to the unique value drivers of each healthcare business model -- pipeline probability for pharma/biotech, procedure volumes for medtech, MLR for managed care -- because "healthcare" is a misleadingly broad category.
+
+The uncomfortable truth: healthcare analysts who focus only on current financials miss the entire story. The real work is in pipeline probability assessment, LOE (loss of exclusivity) exposure calculation, and regulatory pathway analysis -- none of which appear on the income statement. A pharma company trading at 12x current earnings looks cheap until you realize 40% of revenue faces generic competition in 2 years. The framework forces forward-looking analysis because in healthcare, the past is not prologue.
+
+---
 
 ## Pharmaceuticals
 
@@ -175,7 +189,13 @@ Define key performance indicators and benchmarks for healthcare companies across
 | Managed Care | 0.5-1x | 10-14x | 15-20x | Membership, MLR |
 | Healthcare Services | 1-2x | 8-12x | 12-18x | Volume, margin |
 
+## Integration
+
+- **Primary Application:** `04_INDUSTRY_ANALYSIS.md` (sector-specific KPI analysis for healthcare companies)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (pipeline economics, reimbursement model), `05_FINANCIAL_ANALYSIS.md` (margin benchmarking, R&D productivity), `06_VALUATION.md` (pipeline NPV, risk-adjusted valuation)
+- **Cross-Reference:** `catalyst_taxonomy.md` (FDA approvals as catalysts), `conviction_scoring.md` (data quality factor critical for pipeline-stage companies)
+- **Authority:** @Sector_Healthcare has sole authority for healthcare sector metric selection and benchmarking
+
 ---
 
-**Framework Owner:** @Sector_Healthcare
-**Version:** 1.0
+*In healthcare, the income statement is history. The pipeline is the thesis.*

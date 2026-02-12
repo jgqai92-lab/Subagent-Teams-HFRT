@@ -1,7 +1,21 @@
 # Seven Powers Framework
 
-## Purpose
-Identify and assess sustainable competitive advantages (moats) that allow a company to maintain superior returns over time. Based on Hamilton Helmer's "7 Powers" framework.
+> **Classification:** SUSTAINABLE COMPETITIVE ADVANTAGE IDENTIFICATION FRAMEWORK
+> **Applied To:** Every company undergoing moat source identification in the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Fundamental_Analyst
+
+---
+
+## Core Principle
+
+**There are exactly seven sources of sustainable competitive advantage. If you cannot identify which one a company possesses, it does not have a moat -- it has a temporary lead.**
+
+Hamilton Helmer's Seven Powers framework provides the most rigorous taxonomy of competitive advantage sources available. Unlike generic "moat" discussions, each Power has a specific mechanism, specific evidence requirements, and a specific durability profile. The framework is applied alongside the Moat Assessment to identify not just whether a moat exists, but which specific Power(s) create it and how durable each is.
+
+The uncomfortable truth: most companies claim multiple powers but evidence supports at most one or two. Claiming "network effects" without demonstrating that value increases with each additional user is wishful thinking, not analysis. Claiming "brand power" without demonstrating a measurable price premium over unbranded alternatives is marketing, not competitive advantage. This framework forces the analyst to name the specific Power, present the specific evidence, and score the specific strength. Vague moat claims do not survive this process -- and that is the point.
+
+---
 
 ## The Seven Powers
 
@@ -217,13 +231,7 @@ Identify and assess sustainable competitive advantages (moats) that allow a comp
 | 16-25 | Wide |
 | 26-35 | Very Wide |
 
-## Integration with Investment Analysis
-
-### Where This Appears in Research
-- 03_COMPETITIVE_POSITION.md (primary)
-- 11_INVESTMENT_THESIS.md (moat durability)
-
-### Connection to Valuation
+## Connection to Valuation
 - Companies with durable moats deserve higher multiples
 - Moat strength affects terminal value assumptions
 - Moat durability affects DCF projection period
@@ -234,7 +242,13 @@ Identify and assess sustainable competitive advantages (moats) that allow a comp
 - Moat erosion trends
 - Competitor with stronger power emerging
 
+## Integration
+
+- **Primary Application:** `03_COMPETITIVE_POSITION.md` (moat source identification)
+- **Feeds Into:** `11_INVESTMENT_THESIS.md` (moat durability assessment), `06_VALUATION.md` (terminal value assumptions)
+- **Cross-Reference:** `moat_assessment.md` (moat width and trend), `porters_five_forces.md` (industry context for power durability)
+- **Authority:** @Fundamental_Analyst has primary authority for Seven Powers assessment
+
 ---
 
-**Framework Owner:** @Fundamental_Analyst
-**Version:** 1.0
+*Name the Power or admit there isn't one. Vague moat claims are not analysis.*

@@ -1,7 +1,21 @@
 # Moat Assessment Framework
 
-## Purpose
-Evaluate the strength and durability of a company's competitive advantages to determine if the business can maintain superior returns over time.
+> **Classification:** COMPETITIVE ADVANTAGE ASSESSMENT FRAMEWORK
+> **Applied To:** Every company undergoing competitive position analysis in the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Fundamental_Analyst
+
+---
+
+## Core Principle
+
+**A moat is not a brand name or a market share number -- it is a structural advantage that allows a company to earn returns above the cost of capital for a measurable duration.**
+
+Moat assessment is the bridge between business analysis and valuation. Without a durable moat, current margins are transitory and high multiples are unjustified. A company trading at 25x earnings with no moat is not a growth stock -- it is a mean-reversion trade waiting to happen. The framework demands evidence for each moat type, a durability test, and a trend assessment because the question is not just "does a moat exist today" but "will it exist in 10 years."
+
+The uncomfortable truth: most companies that analysts describe as "having a moat" actually don't -- they have temporary advantages that erode under competition. Brand awareness is not a moat unless it commands a measurable price premium. Market share is not a moat unless it's defended by structural barriers. This framework forces the analyst to name the moat type, present the evidence, test the durability, and assess the trend. Vague claims of competitive advantage do not survive this process.
+
+---
 
 ## Moat Definition
 
@@ -207,13 +221,6 @@ A **moat** is a structural competitive advantage that allows a company to:
 | **Estimated Duration** | [X] years |
 | **Confidence Level** | Low / Medium / High |
 
-## Integration with Investment Analysis
-
-### Where This Appears
-- 03_COMPETITIVE_POSITION.md (detailed analysis)
-- 11_INVESTMENT_THESIS.md (thesis support)
-- 06_VALUATION.md (multiple justification)
-
 ### Valuation Implications
 
 | Moat Width | Multiple Impact | DCF Impact |
@@ -222,7 +229,13 @@ A **moat** is a structural competitive advantage that allows a company to:
 | Narrow | In-line with peers | 5-7 year explicit period |
 | Wide | Premium to peers | 10+ year explicit period |
 
+## Integration
+
+- **Primary Application:** `03_COMPETITIVE_POSITION.md` (detailed moat analysis)
+- **Feeds Into:** `11_INVESTMENT_THESIS.md` (thesis support), `06_VALUATION.md` (multiple justification -- moat width determines DCF projection period)
+- **Cross-Reference:** `seven_powers_framework.md` (Seven Powers identifies specific moat sources), `porters_five_forces.md` (industry structure context), `conviction_scoring.md` (moat strength is 20% of conviction)
+- **Authority:** @Fundamental_Analyst has primary authority for moat assessment
+
 ---
 
-**Framework Owner:** @Fundamental_Analyst
-**Version:** 1.0
+*If the advantage wouldn't survive a well-funded competitor with 5 years and $1B, it's not a moat.*

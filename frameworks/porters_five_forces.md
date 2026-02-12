@@ -1,7 +1,21 @@
 # Porter's Five Forces Framework
 
-## Purpose
-Analyze industry structure and competitive dynamics to assess the attractiveness of an industry and the sustainability of competitive positions within it.
+> **Classification:** INDUSTRY STRUCTURE ANALYSIS FRAMEWORK
+> **Applied To:** Every industry undergoing competitive dynamics analysis in the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Fundamental_Analyst, @Sector_Specialist
+
+---
+
+## Core Principle
+
+**Industry structure determines the range of possible outcomes. A great company in a terrible industry is still a mediocre investment.**
+
+Porter's Five Forces is not an academic exercise -- it determines whether an industry allows its participants to earn excess returns. Attractive industry structure (high barriers, low rivalry, weak substitutes) is a necessary but not sufficient condition for a good investment. The framework precedes company-level analysis because no amount of operational excellence overcomes structurally unattractive economics. An airline with the best management team in the world still operates in a structurally terrible industry.
+
+The uncomfortable truth: analysts spend 90% of their time on company-level analysis and 10% on industry structure, when industry structure explains more variance in long-term returns than company selection. A mediocre company in a structurally attractive industry (think waste management, credit ratings) will outperform an excellent company in a structurally unattractive one (think airlines, commodity chemicals) over a full cycle. This framework forces the industry-level assessment before the company-level enthusiasm takes over.
+
+---
 
 ## The Five Forces
 
@@ -135,13 +149,7 @@ Analyze industry structure and competitive dynamics to assess the attractiveness
 **Implications for Investment:**
 [How does industry structure affect the investment thesis?]
 
-## Integration with Investment Analysis
-
-### Where This Appears in Research
-- 03_COMPETITIVE_POSITION.md (primary)
-- 04_INDUSTRY_ANALYSIS.md (context)
-
-### Connection to Moat Analysis
+## Connection to Moat Analysis
 Porter's Five Forces identifies industry dynamics; Seven Powers identifies company-specific advantages within that industry. Use together for complete competitive analysis.
 
 ## Red Flags
@@ -150,7 +158,12 @@ Porter's Five Forces identifies industry dynamics; Seven Powers identifies compa
 - Company without moat in attractive industry (attracts competition)
 - Company with moat in unattractive industry (limited upside)
 
+## Integration
+
+- **Primary Application:** `03_COMPETITIVE_POSITION.md` (industry structure section), `04_INDUSTRY_ANALYSIS.md` (industry context)
+- **Cross-Reference:** `seven_powers_framework.md` (company-specific advantages within the industry), `moat_assessment.md` (moat durability depends on industry structure)
+- **Authority:** @Fundamental_Analyst has primary authority; relevant @Sector_Specialist provides sector-specific context
+
 ---
 
-**Framework Owner:** @Fundamental_Analyst, @Sector_Specialist
-**Version:** 1.0
+*Understand the industry before you fall in love with the company. Structure eats strategy.*

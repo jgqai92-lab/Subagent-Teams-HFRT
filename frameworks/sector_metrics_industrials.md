@@ -1,7 +1,21 @@
 # Industrials Sector Metrics Framework
 
-## Purpose
-Define key performance indicators and benchmarks for industrial companies across sub-sectors.
+> **Classification:** INDUSTRIALS SECTOR KPI FRAMEWORK
+> **Applied To:** All industrial companies (aerospace & defense, machinery, transportation, industrial services) entering the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Sector_Industrials
+
+---
+
+## Core Principle
+
+**Industrial companies are cycle machines. The single most important question is where you are in the cycle -- everything else is precision on top of that judgment.**
+
+Industrials are the most cycle-sensitive sector in the market. The same company looks cheap at the peak (peak earnings, moderate multiple) and expensive at the trough (trough earnings, high multiple). The framework provides cycle positioning tools alongside sub-sector KPIs because analyzing an industrial company without understanding the cycle is like navigating without knowing which direction is north. PMI, durable goods orders, capacity utilization -- these leading indicators determine whether the next 12 months bring expansion or contraction.
+
+The uncomfortable truth: most industrial stock analysis confuses cycle position for company quality. A machinery company reporting record margins at the cycle peak is not "executing well" -- it is benefiting from a cyclical tailwind that will reverse. An aerospace company with a declining book-to-bill is not "losing competitiveness" -- it may simply be past the order peak. The framework forces cycle-aware analysis by requiring leading indicator assessment alongside operating metrics. Know where you are in the cycle before you decide whether the stock is cheap or expensive.
+
+---
 
 ## Cycle Positioning Framework
 
@@ -184,7 +198,13 @@ Define key performance indicators and benchmarks for industrial companies across
 | Late Cycle | Discount (peak earnings) |
 | Downturn | Trough multiples on normalized |
 
+## Integration
+
+- **Primary Application:** `04_INDUSTRY_ANALYSIS.md` (sector-specific KPI analysis for industrial companies)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (aftermarket mix, backlog analysis), `05_FINANCIAL_ANALYSIS.md` (margin analysis with cycle context), `06_VALUATION.md` (cycle-adjusted multiples, normalized earnings)
+- **Cross-Reference:** `dupont_analysis.md` (asset turnover especially important for capital-intensive industrials), `catalyst_taxonomy.md` (cycle inflection as macro catalyst)
+- **Authority:** @Sector_Industrials has sole authority for industrial sector metric selection and benchmarking
+
 ---
 
-**Framework Owner:** @Sector_Industrials
-**Version:** 1.0
+*In industrials, timing the cycle matters more than picking the company. Know where you are before you decide where to invest.*

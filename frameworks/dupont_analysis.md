@@ -1,15 +1,29 @@
 # DuPont Analysis Framework
 
-## Purpose
-Decompose Return on Equity (ROE) into component drivers to understand the sources of profitability and identify areas of strength or concern.
+> **Classification:** PROFITABILITY DECOMPOSITION FRAMEWORK
+> **Applied To:** Every company undergoing financial analysis in the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Quantitative_Analyst
+
+---
+
+## Core Principle
+
+**ROE is a composite number that hides more than it reveals. Decompose it or be deceived by it.**
+
+A 15% ROE can come from excellent operations (high margins, efficient asset utilization) or from dangerous leverage. Without decomposition, these two companies look identical on a quantitative screen. DuPont analysis is the only way to distinguish quality ROE from leveraged ROE, and the framework is applied to every company in the HFRT pipeline to identify the *source* of returns, not just the level.
+
+The uncomfortable truth: many "high-quality" companies that pass quantitative screens are actually leveraging their way to attractive ROE numbers. A company with 8% margins, mediocre asset turnover, and 4x leverage can post the same ROE as a company with 20% margins and no debt. Without decomposition, this is invisible -- and the leveraged company carries far more risk in a downturn. The framework forces the question: "Where does this ROE come from, and would it survive a stress scenario?"
+
+---
 
 ## 3-Factor DuPont Model
 
 ### Formula
 ```
-ROE = Net Profit Margin × Asset Turnover × Financial Leverage
+ROE = Net Profit Margin x Asset Turnover x Financial Leverage
 
-ROE = (Net Income / Revenue) × (Revenue / Total Assets) × (Total Assets / Shareholders' Equity)
+ROE = (Net Income / Revenue) x (Revenue / Total Assets) x (Total Assets / Shareholders' Equity)
 ```
 
 ### Component Definitions
@@ -35,9 +49,9 @@ ROE = (Net Income / Revenue) × (Revenue / Total Assets) × (Total Assets / Shar
 
 ### Formula
 ```
-ROE = Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Leverage
+ROE = Tax Burden x Interest Burden x EBIT Margin x Asset Turnover x Leverage
 
-ROE = (NI/EBT) × (EBT/EBIT) × (EBIT/Revenue) × (Revenue/Assets) × (Assets/Equity)
+ROE = (NI/EBT) x (EBT/EBIT) x (EBIT/Revenue) x (Revenue/Assets) x (Assets/Equity)
 ```
 
 ### Component Definitions
@@ -133,13 +147,7 @@ ROE = (NI/EBT) × (EBT/EBIT) × (EBIT/Revenue) × (Revenue/Assets) × (Assets/Eq
 | Trend stability | | 20% | |
 | **Total Quality Score** | | 100% | |
 
-## Integration with Investment Analysis
-
-### Where This Appears in Research
-- 05_FINANCIAL_ANALYSIS.md (primary analysis)
-- 02_BUSINESS_MODEL.md (margin drivers)
-
-### Connection to Valuation
+## Connection to Valuation
 - High-quality ROE justifies higher P/B multiples
 - Sustainable ROE drives residual income models
 - ROE vs. cost of equity determines value creation
@@ -169,7 +177,13 @@ ROE = (NI/EBT) × (EBT/EBIT) × (EBIT/Revenue) × (Revenue/Assets) × (Assets/Eq
 - Use industry-specific metrics (NIM, efficiency ratio)
 - Leverage is core to business model
 
+## Integration
+
+- **Primary Application:** `05_FINANCIAL_ANALYSIS.md` (primary profitability analysis)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (margin driver analysis), `06_VALUATION.md` (quality-adjusted multiples)
+- **Cross-Reference:** `quality_of_earnings.md` (earnings quality validates DuPont components), `conviction_scoring.md` (data quality factor)
+- **Authority:** @Quantitative_Analyst has primary authority for DuPont analysis
+
 ---
 
-**Framework Owner:** @Quantitative_Analyst
-**Version:** 1.0
+*A high ROE is not a compliment until you know where it comes from.*

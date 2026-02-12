@@ -1,7 +1,21 @@
 # Consumer Sector Metrics Framework
 
-## Purpose
-Define key performance indicators and benchmarks for consumer companies across sub-sectors.
+> **Classification:** CONSUMER SECTOR KPI FRAMEWORK
+> **Applied To:** All consumer companies (retail, restaurants, CPG, apparel, leisure) entering the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Sector_Consumer
+
+---
+
+## Core Principle
+
+**Consumer businesses live or die by same-store sales decomposition. Traffic times ticket tells the real story -- revenue growth without traffic growth is a company borrowing from its future.**
+
+Consumer sector analysis requires sub-sector-specific KPIs because a restaurant, a retailer, and a CPG company have entirely different operating models despite all being "consumer." A restaurant chain's unit economics (AUV, 4-wall margins, new unit ROIC) bear no resemblance to a CPG company's brand health metrics (household penetration, organic growth, market share). The framework provides the right metrics for each sub-sector and defines what "good" looks like with specific benchmarks, not relative hand-waving.
+
+The uncomfortable truth: most consumer stock pitches rely on brand narrative rather than unit economics. A restaurant chain with beautiful branding but new unit ROIC below 15% is destroying value with every new opening. A retailer with positive comps driven entirely by ticket (while traffic declines) is raising prices on a shrinking customer base -- a strategy with a shelf life. The numbers, not the brand story, determine the investment case.
+
+---
 
 ## Retail (Specialty, Department, E-commerce)
 
@@ -31,7 +45,7 @@ Define key performance indicators and benchmarks for consumer companies across s
 ### Comp Sales Decomposition
 ```
 Comp Sales = Traffic Change + Ticket Change
-Ticket = Units per Transaction × Average Unit Retail (AUR)
+Ticket = Units per Transaction x Average Unit Retail (AUR)
 ```
 
 ### Red Flags
@@ -202,7 +216,13 @@ Ticket = Units per Transaction × Average Unit Retail (AUR)
 - Market share gains
 - High ROIC on growth investments
 
+## Integration
+
+- **Primary Application:** `04_INDUSTRY_ANALYSIS.md` (sector-specific KPI analysis for consumer companies)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (unit economics), `05_FINANCIAL_ANALYSIS.md` (margin benchmarking), `06_VALUATION.md` (multiple context by sub-sector)
+- **Cross-Reference:** `moat_assessment.md` (brand as intangible asset moat type), `porters_five_forces.md` (buyer power, rivalry dynamics)
+- **Authority:** @Sector_Consumer has sole authority for consumer sector metric selection and benchmarking
+
 ---
 
-**Framework Owner:** @Sector_Consumer
-**Version:** 1.0
+*Brand stories sell stocks. Unit economics determine whether they stay sold.*

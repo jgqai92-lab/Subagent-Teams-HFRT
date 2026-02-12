@@ -1,7 +1,21 @@
 # Financials Sector Metrics Framework
 
-## Purpose
-Define key performance indicators and benchmarks for financial companies across sub-sectors.
+> **Classification:** FINANCIALS SECTOR KPI FRAMEWORK
+> **Applied To:** All financial companies (banks, insurance, asset management, capital markets, REITs, specialty finance) entering the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Sector_Financials
+
+---
+
+## Core Principle
+
+**Financial companies are opaque by nature. The balance sheet IS the business model, and the metrics that matter are entirely different from every other sector.**
+
+Financials require a completely different analytical toolkit. Revenue, EBITDA, and P/E -- the standard metrics for other sectors -- are misleading or meaningless for banks, insurers, and REITs. A bank's NIM, a P&C insurer's combined ratio, and a REIT's FFO each require specialized knowledge to interpret. Applying industrial-sector metrics to financials is a common and expensive mistake.
+
+The uncomfortable truth: credit quality is a lagging indicator -- by the time NPLs rise, the damage is already done. The framework emphasizes leading indicators (criticized assets, vintage analysis, reserve adequacy) over the lagging metrics that most screens use. A bank reporting pristine credit quality today may be sitting on a CRE concentration that destroys 3 years of earnings next year. Similarly, an insurer with a 95% combined ratio looks great until you discover the prior year reserve releases that are flattering current results. This framework forces the analyst to look where the bodies are buried, not where the press release points.
+
+---
 
 ## Banks (Commercial, Regional, Investment)
 
@@ -34,8 +48,8 @@ Drivers:
 
 ### Credit Quality Waterfall
 ```
-Criticized Assets → NPLs → NCOs
-      ↓               ↓        ↓
+Criticized Assets -> NPLs -> NCOs
+      |               |        |
    Watch List    Workout    Loss
 
 Reserve Build = Provision - NCOs
@@ -294,7 +308,7 @@ Where:
 - g = Growth rate
 - COE = Cost of equity
 
-Higher ROE → Higher P/TBV multiple deserved
+Higher ROE -> Higher P/TBV multiple deserved
 ```
 
 ### Premium Factors
@@ -304,7 +318,13 @@ Higher ROE → Higher P/TBV multiple deserved
 - Strong deposit franchise
 - Clean regulatory record
 
+## Integration
+
+- **Primary Application:** `04_INDUSTRY_ANALYSIS.md` (sector-specific KPI analysis for financial companies)
+- **Feeds Into:** `02_BUSINESS_MODEL.md` (financial business model specifics), `05_FINANCIAL_ANALYSIS.md` (sector-appropriate metrics), `06_VALUATION.md` (P/TBV framework, FFO multiples for REITs)
+- **Cross-Reference:** `dupont_analysis.md` (leverage is core to financial business models -- interpret differently), `management_red_flags.md` (governance especially critical for opaque businesses)
+- **Authority:** @Sector_Financials has sole authority for financial sector metric selection and benchmarking
+
 ---
 
-**Framework Owner:** @Sector_Financials
-**Version:** 1.0
+*Financials are balance sheet businesses. If you're using revenue multiples, you've already gone wrong.*

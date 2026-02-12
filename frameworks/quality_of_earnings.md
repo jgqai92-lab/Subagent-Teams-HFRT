@@ -1,7 +1,21 @@
 # Quality of Earnings Framework
 
-## Purpose
-Assess the quality, sustainability, and reliability of reported earnings to identify accounting risks and distinguish between high-quality and low-quality earners.
+> **Classification:** EARNINGS RELIABILITY AND ACCOUNTING RISK FRAMEWORK
+> **Applied To:** Every company undergoing financial due diligence in the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Due_Diligence_Officer
+
+---
+
+## Core Principle
+
+**Reported earnings are an opinion. Cash flow is a fact. The gap between them is where accounting risk lives.**
+
+Quality of earnings analysis is the financial due diligence counterpart to management red flags -- it tests whether the reported numbers can be trusted. High-quality earnings are cash-backed, recurring, and transparent. Low-quality earnings rely on accruals, aggressive recognition, and non-GAAP flattery. The framework exists because valuation models assume earnings are real -- if they're not, every multiple applied to them is wrong.
+
+The uncomfortable truth: the most common source of permanent capital loss is not paying too high a multiple, but paying any multiple on earnings that turn out to be fabricated or unsustainable. A stock at 30x real earnings is expensive. A stock at 10x fake earnings is worthless. This framework forces the analyst to verify that earnings convert to cash, that revenue is genuinely recognized, and that the gap between GAAP and non-GAAP metrics is justified -- not just accepted.
+
+---
 
 ## Quality of Earnings Checklist
 
@@ -75,9 +89,9 @@ Assess the quality, sustainability, and reliability of reported earnings to iden
 
 | Metric | Calculation | What It Indicates |
 |--------|-------------|-------------------|
-| DSO | (AR / Revenue) × 365 | Collection efficiency |
-| DIO | (Inventory / COGS) × 365 | Inventory management |
-| DPO | (AP / COGS) × 365 | Payment management |
+| DSO | (AR / Revenue) x 365 | Collection efficiency |
+| DIO | (Inventory / COGS) x 365 | Inventory management |
+| DPO | (AP / COGS) x 365 | Payment management |
 | CCC | DSO + DIO - DPO | Cash efficiency |
 
 **Warning Signs:**
@@ -169,14 +183,7 @@ Accrual Ratio = (Net Income - Cash from Operations) / Average Total Assets
 | 2.0-2.9 | Concerning | Significant quality issues |
 | 1.0-1.9 | Poor | Earnings not reliable |
 
-## Integration with Investment Analysis
-
-### Where This Appears
-- 09_QUALITY_OF_EARNINGS.md (primary)
-- 05_FINANCIAL_ANALYSIS.md (summary)
-- 08_RISK_ANALYSIS.md (risk factors)
-
-### Impact on Thesis
+## Impact on Thesis
 - Low earnings quality = discount to valuation
 - Deteriorating quality = potential catalyst risk
 - High quality = supports premium multiple
@@ -201,7 +208,13 @@ Accrual Ratio = (Net Income - Cash from Operations) / Average Total Assets
 - [ ] SBC > 10% of revenue
 - [ ] Aggressive capitalization
 
+## Integration
+
+- **Primary Application:** `09_QUALITY_OF_EARNINGS.md` (primary earnings quality analysis)
+- **Feeds Into:** `05_FINANCIAL_ANALYSIS.md` (earnings quality summary), `08_RISK_ANALYSIS.md` (accounting risk factors)
+- **Cross-Reference:** `management_red_flags.md` (management controls earnings quality), `dupont_analysis.md` (DuPont components must reconcile with cash flows), `conviction_scoring.md` (data quality factor)
+- **Authority:** @Due_Diligence_Officer has sole authority for quality of earnings assessment
+
 ---
 
-**Framework Owner:** @Due_Diligence_Officer
-**Version:** 1.0
+*Never trust earnings that can't be reconciled to cash. Accruals are promises; cash is proof.*

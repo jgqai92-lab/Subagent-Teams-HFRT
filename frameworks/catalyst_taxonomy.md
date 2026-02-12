@@ -1,7 +1,23 @@
 # Catalyst Taxonomy Framework
 
-## Purpose
-Systematically identify, categorize, and assess catalysts that could unlock value or cause re-rating of a stock.
+> **Classification:** CATALYST IDENTIFICATION FRAMEWORK
+> **Applied To:** Every investment thesis requiring a value-unlocking event
+> **Version:** 1.0
+> **Framework Owner:** @Thesis_Synthesizer, @Bull_Analyst, @Bear_Analyst
+
+---
+
+## Core Principle
+
+**A thesis without a catalyst is a prayer. Something must happen to unlock value, and that something must be specific, timed, and measurable.**
+
+"Cheap" is not a catalyst. Catalysts are what separate deep value traps from value investments. Without an identifiable, timed event, there is no mechanism for the market to re-rate a stock. A company can trade at 6x earnings for a decade if nothing forces the market to reassess its assumptions. The catalyst is the forcing function.
+
+The uncomfortable truth: most "catalysts" that analysts cite are too vague to be actionable. "Eventually the market will recognize value" is not a catalyst -- it is a hope. A real catalyst has a date (or date range), a measurement (how will we know it happened), and a probability (how likely is it). This framework demands all three for every catalyst identified. If you cannot specify when, how, and how likely, you do not have a catalyst -- you have a wish.
+
+The HFRT invariant is absolute: **no position recommendation without an identified catalyst.** This is not a suggestion. It is a gate.
+
+---
 
 ## What is a Catalyst?
 
@@ -177,9 +193,9 @@ A **catalyst** is an event or development that will cause the market to reassess
 
 | Catalyst | Probability | Impact | Expected Value |
 |----------|-------------|--------|----------------|
-| [Catalyst 1] | [X]% | +[Y]% | +[X×Y/100]% |
-| [Catalyst 2] | [X]% | +[Y]% | +[X×Y/100]% |
-| [Risk 1] | [X]% | -[Y]% | -[X×Y/100]% |
+| [Catalyst 1] | [X]% | +[Y]% | +[X*Y/100]% |
+| [Catalyst 2] | [X]% | +[Y]% | +[X*Y/100]% |
+| [Risk 1] | [X]% | -[Y]% | -[X*Y/100]% |
 | **Net Expected** | | | **[Sum]%** |
 
 ## Catalyst Density Assessment
@@ -190,18 +206,13 @@ A **catalyst** is an event or development that will cause the market to reassess
 | Medium | 1-2 catalysts in next 6 months | Standard monitoring |
 | Low | No clear catalysts in next 6 months | May need patience |
 
-## Integration with Investment Analysis
+## Integration
 
-### Where This Appears
-- 10_CATALYST_ANALYSIS.md (primary)
-- 11_INVESTMENT_THESIS.md (thesis support)
-- 12_BULL_CASE.md (upside catalysts)
-- 13_BEAR_CASE.md (risk catalysts)
-
-### Thesis Requirement
-**HFRT Invariant:** No position recommendation without an identified catalyst.
+- **Primary Application:** `10_CATALYST_ANALYSIS.md` (catalyst identification and scoring)
+- **Feeds Into:** `11_INVESTMENT_THESIS.md` (thesis support), `14_INVESTMENT_MEMO_FINAL.md` (recommendation)
+- **Cross-Reference:** `12_BULL_CASE.md` (upside catalysts), `13_BEAR_CASE.md` (risk catalysts), `conviction_scoring.md` (catalyst clarity is 20% of conviction score)
+- **Authority:** @Thesis_Synthesizer has primary authority; @Bull_Analyst and @Bear_Analyst apply to their respective cases
 
 ---
 
-**Framework Owner:** @Thesis_Synthesizer, @Bull_Analyst, @Bear_Analyst
-**Version:** 1.0
+*No catalyst, no position. "Cheap" is a description, not a thesis.*

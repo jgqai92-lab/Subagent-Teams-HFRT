@@ -1,7 +1,21 @@
 # Conviction Scoring Framework
 
-## Purpose
-Systematically assess investment conviction to ensure consistent position sizing and portfolio construction decisions.
+> **Classification:** POSITION SIZING AND CONVICTION FRAMEWORK
+> **Applied To:** Every investment thesis at the recommendation stage
+> **Version:** 1.0
+> **Framework Owner:** @Thesis_Synthesizer
+
+---
+
+## Core Principle
+
+**Conviction is not a feeling -- it is a weighted score across six measurable factors that maps directly to position size.**
+
+Conviction scoring exists to prevent two failure modes: oversizing positions based on narrative enthusiasm, and undersizing positions where the evidence is strong but the idea is uncomfortable. The score is mechanical by design -- it forces the analyst to justify every dimension independently rather than letting a compelling story carry weak fundamentals.
+
+The uncomfortable truth: most fund managers size positions by gut feel and post-rationalize the decision. "High conviction" becomes whatever position they happened to take, not the output of a disciplined process. This framework makes the sizing decision auditable and repeatable. If two analysts score the same company and arrive at different conviction levels, the disagreement is visible at the factor level -- not buried in competing narratives.
+
+---
 
 ## Conviction Score Definition
 
@@ -118,12 +132,12 @@ The **conviction score** is a 1-5 rating that reflects confidence in the investm
 
 | Factor | Weight | Score (1-5) | Weighted Score |
 |--------|--------|-------------|----------------|
-| Thesis Clarity | 20% | [X] | [X × 0.20] |
-| Moat Strength | 20% | [X] | [X × 0.20] |
-| Catalyst Clarity | 20% | [X] | [X × 0.20] |
-| Risk/Reward | 20% | [X] | [X × 0.20] |
-| Data Quality | 10% | [X] | [X × 0.10] |
-| Management Quality | 10% | [X] | [X × 0.10] |
+| Thesis Clarity | 20% | [X] | [X * 0.20] |
+| Moat Strength | 20% | [X] | [X * 0.20] |
+| Catalyst Clarity | 20% | [X] | [X * 0.20] |
+| Risk/Reward | 20% | [X] | [X * 0.20] |
+| Data Quality | 10% | [X] | [X * 0.10] |
+| Management Quality | 10% | [X] | [X * 0.10] |
 | **Total Conviction** | 100% | | **[Sum]** |
 
 ### Conviction to Score Mapping
@@ -152,7 +166,7 @@ The **conviction score** is a 1-5 rating that reflects confidence in the investm
 
 | Requirement | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
 |-------------|--------|--------|--------|--------|
-| Conviction Score | ≥4.5 | ≥3.5 | ≥2.5 | ≥1.5 |
+| Conviction Score | >=4.5 | >=3.5 | >=2.5 | >=1.5 |
 | Catalyst Identified | Yes, multiple | Yes | Preferred | Optional |
 | Risk/Reward | >3:1 | >2:1 | >1:1 | Any |
 | Moat | Wide | Narrow+ | Any | Any |
@@ -194,13 +208,7 @@ The **conviction score** is a 1-5 rating that reflects confidence in the investm
 |------|-----------|-----------|--------|
 | [Date] | [X] | [Y] | [Brief reason] |
 
-## Integration with Investment Analysis
-
-### Where This Appears
-- 11_INVESTMENT_THESIS.md (conviction section)
-- 14_INVESTMENT_MEMO_FINAL.md (recommendation)
-
-### Output Format
+## Output Format
 
 ```
 ## Conviction Assessment
@@ -221,7 +229,12 @@ The **conviction score** is a 1-5 rating that reflects confidence in the investm
 **Rationale:** [Why this conviction level?]
 ```
 
+## Integration
+
+- **Primary Application:** `11_INVESTMENT_THESIS.md` (conviction section), `14_INVESTMENT_MEMO_FINAL.md` (recommendation and position sizing)
+- **Cross-Reference:** `catalyst_taxonomy.md` (catalyst clarity factor), `moat_assessment.md` (moat strength factor), `management_red_flags.md` (management quality factor)
+- **Authority:** @Thesis_Synthesizer has sole authority for final conviction scoring
+
 ---
 
-**Framework Owner:** @Thesis_Synthesizer
-**Version:** 1.0
+*Conviction without a framework is gambling. Size positions by evidence, not enthusiasm.*

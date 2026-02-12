@@ -1,7 +1,21 @@
 # Management Red Flags Checklist
 
-## Purpose
-Systematically identify management quality concerns and governance red flags that may indicate elevated risk of shareholder value destruction.
+> **Classification:** GOVERNANCE AND MANAGEMENT RISK FRAMEWORK
+> **Applied To:** Every company undergoing due diligence in the HFRT pipeline
+> **Version:** 1.0
+> **Framework Owner:** @Due_Diligence_Officer
+
+---
+
+## Core Principle
+
+**Management quality is the single most underweighted factor in fundamental analysis. Red flags are not noise -- they are the earliest signal of future value destruction.**
+
+Financial models assume honest inputs, but management controls the inputs. Governance failures precede financial failures by years -- sometimes by a decade. The red flag checklist exists to systematically identify management-related risks before they show up in the numbers, because by the time they appear in the financials, permanent capital loss has already occurred.
+
+The uncomfortable truth: analysts routinely dismiss governance concerns as "qualitative" and non-material, until the write-down or restatement proves otherwise. The most expensive words in investing are "management assured us." This framework forces a structured, evidence-based assessment of management risk using SEC filings and public records -- not management presentations and investor day charm. Every red flag in this checklist has a specific source document and a specific severity rating, because vague "concerns about management" are as useless as no assessment at all.
+
+---
 
 ## Red Flag Categories
 
@@ -146,18 +160,18 @@ Systematically identify management quality concerns and governance red flags tha
 
 **Management Risk Rating:** [Low / Moderate / High / Very High]
 
-## Integration with Investment Analysis
-
-### Where This Appears
-- 07_MANAGEMENT_ASSESSMENT.md (primary)
-- 08_RISK_ANALYSIS.md (risk factor)
-
-### Impact on Thesis
+## Impact on Thesis
 - High red flag count = higher discount rate
 - Critical flags = potential hard pass
 - Pattern of flags = systemic concern
 
+## Integration
+
+- **Primary Application:** `07_MANAGEMENT_ASSESSMENT.md` (primary management/governance analysis)
+- **Feeds Into:** `08_RISK_ANALYSIS.md` (governance risk factor), `conviction_scoring.md` (management quality is 10% of conviction score)
+- **Cross-Reference:** `quality_of_earnings.md` (management controls earnings quality), `seven_powers_framework.md` (process power depends on management capability)
+- **Authority:** @Due_Diligence_Officer has sole authority for management red flag assessment
+
 ---
 
-**Framework Owner:** @Due_Diligence_Officer
-**Version:** 1.0
+*Trust management's numbers only after you've verified management's character.*
